@@ -577,9 +577,6 @@ video {
   height: -moz-fit-content;
   height: fit-content;
 }
-.h-80 {
-  height: 20rem;
-}
 .h-5 {
   height: 1.25rem;
 }
@@ -588,6 +585,9 @@ video {
 }
 .h-16 {
   height: 4rem;
+}
+.h-80 {
+  height: 20rem;
 }
 .min-h-screen {
   min-height: 100vh;

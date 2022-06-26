@@ -11,8 +11,6 @@
             >
                 @csrf
 
-                {{ dd(session()) }}
-
                 <h1 class="text-indigo-600 tracking-wide text-lg">Animal Shelter Dashboard</h1>
 
                 <div class="flex flex-col gap-1">
