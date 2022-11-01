@@ -9,9 +9,6 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
     <body>
-        <main class="w-screen h-screen flex flex-col gap-10 align-center justify-center">
-            <h1 class="text-center text-2xl">Animal Shelter Dashboard</h1>
-            <h2 class="text-center text-xl">Home Screen</h2>
-        </main>
+        @yield('content')
     </body>
 </html>
